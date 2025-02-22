@@ -3,14 +3,16 @@ package com.borges.projectPDV.domain;
 import java.io.Serializable;
 import java.util.Objects;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+@jakarta.persistence.Entity
 public class Categoria implements Serializable{	
 	private static final long serialVersionUID = 1L;
 	
-	@Id
+	@jakarta.persistence.Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer id;
 	public String nome;
