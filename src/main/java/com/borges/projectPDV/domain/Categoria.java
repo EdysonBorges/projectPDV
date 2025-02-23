@@ -8,12 +8,13 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @jakarta.persistence.Entity
 public class Categoria implements Serializable{	
 	private static final long serialVersionUID = 1L;
 	
 	@jakarta.persistence.Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@jakarta.persistence.GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
 	public Integer id;
 	public String nome;
 	
