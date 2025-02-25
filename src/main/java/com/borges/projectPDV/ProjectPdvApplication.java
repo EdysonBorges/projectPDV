@@ -7,12 +7,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.borges.projectPDV.CategoriaRepositories.CategoriaRepository;
-import com.borges.projectPDV.CategoriaRepositories.CidadeRepository;
-import com.borges.projectPDV.CategoriaRepositories.ClienteRepository;
-import com.borges.projectPDV.CategoriaRepositories.EnderecoRepository;
-import com.borges.projectPDV.CategoriaRepositories.EstadoRepository;
-import com.borges.projectPDV.CategoriaRepositories.ProdutoRepository;
 import com.borges.projectPDV.domain.Categoria;
 import com.borges.projectPDV.domain.Cidade;
 import com.borges.projectPDV.domain.Cliente;
@@ -20,6 +14,12 @@ import com.borges.projectPDV.domain.Endereco;
 import com.borges.projectPDV.domain.Estado;
 import com.borges.projectPDV.domain.Produto;
 import com.borges.projectPDV.domain.enums.TipoCliente;
+import com.borges.projectPDV.repositories.CategoriaRepository;
+import com.borges.projectPDV.repositories.CidadeRepository;
+import com.borges.projectPDV.repositories.ClienteRepository;
+import com.borges.projectPDV.repositories.EnderecoRepository;
+import com.borges.projectPDV.repositories.EstadoRepository;
+import com.borges.projectPDV.repositories.ProdutoRepository;
 
 @SpringBootApplication
 public class ProjectPdvApplication implements CommandLineRunner{

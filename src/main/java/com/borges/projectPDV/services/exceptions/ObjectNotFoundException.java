@@ -1,4 +1,4 @@
-package com.borges.projectPDV.CategoriaServices.exceptions;
+package com.borges.projectPDV.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException{
 	private static final long serialVersionUID = 1L;

@@ -1,13 +1,13 @@
-package com.borges.projectPDV.CategoriaServices;
+package com.borges.projectPDV.services;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.borges.projectPDV.CategoriaRepositories.CategoriaRepository;
-import com.borges.projectPDV.CategoriaServices.exceptions.ObjectNotFoundException;
 import com.borges.projectPDV.domain.Categoria;
+import com.borges.projectPDV.repositories.CategoriaRepository;
+import com.borges.projectPDV.services.exceptions.ObjectNotFoundException;
 
 @Service
 public class CategoriaService {
