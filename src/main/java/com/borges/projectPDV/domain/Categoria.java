@@ -15,8 +15,8 @@ public class Categoria implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	public Integer id;
-	public String nome;
+	private Integer id;
+	private String nome;
 	
     @JsonManagedReference
 	@ManyToMany(mappedBy = "categorias")
