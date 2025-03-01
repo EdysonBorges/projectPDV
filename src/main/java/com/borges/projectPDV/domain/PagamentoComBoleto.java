@@ -5,6 +5,7 @@ package com.borges.projectPDV.domain;
 import java.util.Date;
 
 import com.borges.projectPDV.domain.enums.EstadoPagamento;
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import jakarta.persistence.Entity;
 
@@ -12,7 +13,10 @@ import jakarta.persistence.Entity;
 public class PagamentoComBoleto extends Pagamento {
 	private static final long serialVersionUID = 1L;
 	
+	@JsonFormat(pattern = "dd/MM/yyyy hh:mm")
 	private Date dataVencimento;
+	
+	@JsonFormat(pattern = "dd/MM/yyyy hh:mm")
 	private Date dataPagamento;
 	
 	public PagamentoComBoleto() {}
