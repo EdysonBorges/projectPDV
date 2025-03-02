@@ -1,12 +1,15 @@
 package com.borges.projectPDV.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.borges.projectPDV.domain.Categoria;
 import com.borges.projectPDV.repositories.CategoriaRepository;
+import com.borges.projectPDV.services.exceptions.DataIntegrityException;
 import com.borges.projectPDV.services.exceptions.ObjectNotFoundException;
 
 @Service
@@ -15,7 +18,7 @@ public class CategoriaService {
 	@Autowired
 	private CategoriaRepository repo; 
 	
-	public Categoria buscar(Integer id) {
+	public Categoria find(Integer id) {
 		Optional<Categoria> obj = repo.findById(id);
 		
 		return obj.orElseThrow(() -> new  ObjectNotFoundException(
@@ -26,4 +29,28 @@ public class CategoriaService {
 		obj.setId(null);
 		return repo.save(obj);
 	}
+	
+	public Categoria update(Categoria obj) {
+		find(obj.getId());
+		return repo.save(obj);
+	}
+	
+	public void delete(Integer id) {
+		find(id);
+		
+		try {
+			repo.deleteById(id);
+		}
+		
+		catch (DataIntegrityViolationException e) {
+			throw new DataIntegrityException("Não é possível excluir uma categoria que contém produtos relacionados a ela.");
+		}
+		
+	}
+	
+	public List<Categoria> findAll(){
+		return repo.findAll();
+	}
 }
+
+
