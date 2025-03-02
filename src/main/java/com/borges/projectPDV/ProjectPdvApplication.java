@@ -63,6 +63,22 @@ public class ProjectPdvApplication implements CommandLineRunner{
 		
 		Categoria cat1 = new Categoria(null, "Informática");
 		Categoria cat2 = new Categoria(null, "Escritório");
+		Categoria cat3 = new Categoria(null, "Brinquedos");	
+		Categoria cat4 = new Categoria(null, "Cama me e banho");
+		Categoria cat5 = new Categoria(null, "Cozinha");
+		Categoria cat6 = new Categoria(null, "Frios");
+		Categoria cat7 = new Categoria(null, "Açougue");
+		Categoria cat8 = new Categoria(null, "Padaria");
+		Categoria cat9 = new Categoria(null, "Games");
+		Categoria cat10 = new Categoria(null, "Celulared");
+		Categoria cat11 = new Categoria(null, "Cosméticos");
+		Categoria cat12 = new Categoria(null, "Ferramentas");
+		Categoria cat13 = new Categoria(null, "Vestuários");
+		Categoria cat14 = new Categoria(null, "Sacolão");
+		Categoria cat15 = new Categoria(null, "Lanchonete");
+		Categoria cat16 = new Categoria(null, "Papelaria");
+			
+		
 		
 		Produto p1 = new Produto(null, "Computador", 2000.00 );
 		Produto p2 = new Produto(null, "Impressora", 800.00 );
@@ -75,7 +91,7 @@ public class ProjectPdvApplication implements CommandLineRunner{
 		p2.getCategorias().addAll(Arrays.asList(cat1,cat2));
 		p3.getCategorias().addAll(Arrays.asList(cat1));
 		
-		categoriaRepository.saveAll(Arrays.asList(cat1, cat2));
+		categoriaRepository.saveAll(Arrays.asList(cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, cat10, cat11, cat12,cat13, cat14, cat15, cat16));
 		produtoRepository.saveAll(Arrays.asList(p1,p2,p3));
 		
 		Estado est1 = new Estado(null, "Minas Gerais");
