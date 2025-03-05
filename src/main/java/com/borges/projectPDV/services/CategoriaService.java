@@ -35,11 +35,6 @@ public class CategoriaService {
 		return repo.save(obj);
 	}
 	
-	/*public Categoria update(Categoria obj) {
-		find(obj.getId());
-		return repo.save(obj);
-	}*/
-	
 	public Categoria updateData(Categoria obj) {
 		Categoria newObj = find(obj.getId());
 		updateData(newObj, obj);
