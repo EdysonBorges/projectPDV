@@ -62,7 +62,7 @@ public class ClienteService {
 		}
 		
 		catch (DataIntegrityViolationException e) {
-			throw new DataIntegrityException("Não é possível excluir uma Cliente que contém produtos relacionados a ela.");
+			throw new DataIntegrityException("Não é possível excluir uma Cliente que contém pedidos relacionados a ele.");
 		}
 		
 	}

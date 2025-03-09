@@ -17,12 +17,15 @@ public class PedidoResource {
 	@Autowired
 	private PedidoService service;
 	
+/////////////////////////////////////////////////////////////////////
+	
+	// Método controlador para [BUSCAR POR ID] um pedido
+
 	@RequestMapping(value="/{id}", method = RequestMethod.GET)
-	public ResponseEntity<?> listar(@PathVariable Integer id) {
+	public ResponseEntity<?> find(@PathVariable Integer id) {
 		
-		Pedido obj = service.buscar(id);
-		return ResponseEntity.ok().body(obj);
-		
+		Pedido obj = service.find(id);
+		return ResponseEntity.ok().body(obj);		
 		
 	}
 	
