@@ -1190,3 +1190,19 @@
 2025-03-26 21:00:53,936 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2025-03-26 21:00:53,944 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2025-03-26 21:00:53,947 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/borges/Documents/workspace-spring-tool-suite-4-4.29.1.RELEASE/projectPDV/src/test/resources
+2025-03-27 20:22:05,212 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-03-27 20:29:43,486 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.borges:projectPDV:0.0.1-SNAPSHOT @ /home/borges/Documents/workspace-spring-tool-suite-4-4.29.1.RELEASE/projectPDV/pom.xml.
+2025-03-27 20:29:43,907 [Worker-3: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-core:jar:6.2.13.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.2.13.Final
+2025-03-27 20:29:43,908 [Worker-3: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:8.0.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.0.Final
+2025-03-27 20:29:44,479 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectPDV/src/main/java
+2025-03-27 20:29:44,480 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectPDV/src/main/resources
+2025-03-27 20:29:44,483 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectPDV/src/main/resources
+2025-03-27 20:29:44,486 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /projectPDV/src/test/java
+2025-03-27 20:29:44,486 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /projectPDV/src/test/resources
+2025-03-27 20:29:45,161 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-03-27 20:29:47,309 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-03-27 20:29:47,344 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-03-27 20:29:47,351 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/borges/Documents/workspace-spring-tool-suite-4-4.29.1.RELEASE/projectPDV/src/test/resources
+2025-03-27 20:30:34,301 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-03-27 20:30:34,320 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-03-27 20:30:34,328 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/borges/Documents/workspace-spring-tool-suite-4-4.29.1.RELEASE/projectPDV/src/test/resources
