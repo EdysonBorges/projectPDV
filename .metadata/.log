@@ -6539,3 +6539,74 @@ java.io.FileNotFoundException:
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-28 17:24:24.114
 !MESSAGE Classpath changed for project: projectPDV
+!SESSION 2025-03-28 22:43:17.769 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-28 22:43:19.853
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-03-28 22:43:20.102
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (325) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-03-28 22:43:26.764
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-28 22:43:27.124
+!MESSAGE Logback config file: /home/borges/Documents/workspace-spring-tool-suite-4-4.29.1.RELEASE/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-28 22:43:27.576
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-28 22:43:27.576
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-28 22:43:27.901
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-28 22:43:27.901
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-03-28 22:43:30.479
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-28 22:43:47.067
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.2.13.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.2.13.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-03-28 22:43:47.067
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:8.0.0.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:8.0.0.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-28 22:43:48.587
+!MESSAGE Classpath changed for project: projectPDV
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-28 22:43:48.588
+!MESSAGE Boot project ADDED: projectPDV
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-28 22:43:48.588
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-28 22:43:48.610
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-28 22:43:48.622
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/borges/Documentos/sts-4.29.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/home/borges/Documents/workspace-spring-tool-suite-4-4.29.1.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1743212628622
+-Dlanguageserver.hover-timeout=225
+-jar
+/home/borges/Documentos/sts-4.29.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.61.1.202503181316/servers/spring-boot-language-server/spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-28 22:43:48.623
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-28 22:43:48.625
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5985
